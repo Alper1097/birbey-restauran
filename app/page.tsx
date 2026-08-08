@@ -1,8 +1,17 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Services from "@/components/Services";
+import Catering from "@/components/Catering";
+
 export default function Home() {
   return (
     <main>
-      <h1>Birbey Restaurant</h1>
-      <p>Lezzetin Adı</p>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Catering />
     </main>
   );
 }
